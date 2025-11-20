@@ -1,0 +1,14 @@
+TODO: Explain why the commented line below raises an error.
+std::cout << "Max of 'apple' and 'banana': " << get_max_numeric(std::string("apple"), std::string("banana")) << std::endl;
+
+
+get_max_numeric isn`t work in str type, so apple and banana isn`t a numeric type, so it make a type error
+
+
+TODO: Explain why the commented lines below raises an error.
+Accumulator<float> float_acc;
+float_acc.add(1.0);
+float_acc.add(0.5);
+std::cout << "Accumulated floats: " << integer_acc.get_total() << std::endl;
+
+accumulator type is only work in integral type, but float type isn`t integral type, so it also make a error
